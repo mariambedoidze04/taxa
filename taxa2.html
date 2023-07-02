@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="prettyone">
+    <section class="prettyone">
         <header>
             <div class="main_menu">
                 <nav class="navbar navbar-expand-lg ">
@@ -29,12 +29,11 @@
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 PAGES
                               </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">ABOUT</a>
+                                <a class="dropdown-item" href="#">BOOK TRIP</a>
+                                <a class="dropdown-item" href="#">ELEMENTS</a>
+                              </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,9 +62,206 @@
         <h1>Taxa Adventure</h1>
     </div>
     </div>
-    </div>
+    </section>
+    <section class="sec2">
+      <div class="servicestitles">
+        <p class="lin">WE’RE OFFERING THESE POPULAR SERVICES</p>
+        <h2 class="titl">Getting Adventure with Services</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="el">
+          <h5>Desert Riding Turning <br> So much Flowery</h5>
+          <p class="hh5">Lorem ipsum dolor sit amet, consecter adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <a class="readmore" href="">READ MORE</a>
+          <div class="phdiv">
+          <img class="ph"  src="https://preview.colorlib.com/theme/taxa/img/service/s1.png" alt="">
+        </div>
+        </div>
+        <div class="el">
+          <h5>Relaxation in the <br> Local Beach Campfire</h5>
+          <p class="hh5">Lorem ipsum dolor sit amet, consecter adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <a class="readmore" href="">READ MORE</a>
+          <div class="phdiv">
+          <img class="ph"  src="https://preview.colorlib.com/theme/taxa/img/service/s2.png" alt="">
+        </div>
+        </div>
+        <div class="el">
+          <h5>Forest Exploration <br> with Energy Package</h5>
+          <p class="hh5">Lorem ipsum dolor sit amet, consecter adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <a class="readmore" href="">READ MORE</a>
+          <div class="phdiv">
+          <img class="ph" src="https://preview.colorlib.com/theme/taxa/img/service/s3.png" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec3">
+      <div class="leftone">
+        <h3>Get Ready for Real <br> time Adventure</h3>
+        <div class="saver">
+        <p class="lor3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam quis nostrud exercitation.</p>
+      </div>
+        <button class="btnblack">BOOK A TRIP</button>
+      </div>
+      <div class="rightone">
+        <img src="https://preview.colorlib.com/theme/taxa/img/cta-img.png.webp" alt="">
+      </div>
+    </section>
+    <section class="sec4">
+      <p class="linp">WE’RE OFFERING THESE TRIP PACKAGES</p>
+      <h4>Famous Trips Packages</h4>
+      <div class="packages">
+        <div class="pk">
+          <img src="https://preview.colorlib.com/theme/taxa/img/package/p1.jpg" alt="">
+          <p></p> <p></p>
+          <h6></h6>
+          <p></p>
+          <a href=""></a>
+        </div>
+        <div class="pk">
+          <img src="https://preview.colorlib.com/theme/taxa/img/package/p2.jpg" alt="">
+          <p></p> <p></p>
+          <h6></h6>
+          <p></p>
+          <a href=""></a>
+        </div>
+        <div class="pk">
+          <img src="https://preview.colorlib.com/theme/taxa/img/package/p3.jpg" alt="">
+          <p></p> <p></p>
+          <h6></h6>
+          <p></p>
+          <a href=""></a>
+        </div>
+      </div>
+    </section>
 </body>
 <style>
+  .sec4{
+    width: 100%;
+
+  }
+  .saver{
+    text-align: start;
+  }
+  .btnblack{
+    background-color: black;
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 200px;
+    border: none;
+  }
+  .lor3{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  h3{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 700;
+  }
+  .leftone{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 100px;
+  }
+  .sec3{
+    width:100%;
+    height: 500px;
+    background-image: url(https://preview.colorlib.com/theme/taxa/img/cta-bg.png.webp);
+    background-size: cover;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    background-position: -200px;
+  }
+  .ph{
+    padding: 40px;
+  }
+  .readmore{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .hh5{
+    color: #777777;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h5{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: serif;
+  }
+  .el{
+    width: 25%;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+  }
+  hr{
+    width: 100px;
+    background-color:#DDDDDD;
+    height: 5px;
+  }
+    .servicestitles{
+      text-align: center;
+      padding-top: 150px;
+    }
+    .titl{
+      text-align: center;
+      font-size: 48px;
+    }
+    .lin{
+      font-weight: 400;
+      font-size: 14px;
+      background:linear-gradient(to right, #ff2f8b, #9035f9);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+     .sec2{
+      width: 100%;
+      font-weight: 700;
+    }
+    .dropdown:hover .dropdown-menu {display: block;}
+    .dropdown-item{
+      color: black;
+      text-decoration: none;
+      display: block;
+      border: 1px solid silver;
+    }
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-menu{
+      width: 200px;
+      height: 150px;
+      background-color: rgb(255, 255, 255);
+      display: none;
+      position: absolute;
+    }
     .middlepr{
         width: 100%;
         height: 170px;
