@@ -1,0 +1,612 @@
+
+
+
+
+
+
+
+#spf{
+  color: white;
+}
+.tsh:hover{
+  text-decoration: none;
+  color: #ff2f8b;
+}
+.tsh{
+  color: #ff2f8b;
+  text-decoration: none;
+}
+.ptxt{
+  color: #999999;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+#plpl1:hover{
+  color: #ff2f8b !important;
+}
+.ppl{
+  font-size: 14px;
+}
+.licons{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}
+.huh{
+  display: flex;
+  gap: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lei::placeholder{
+  font-size: 15px;
+  color: #777777;
+  font-weight: 300;
+}
+.photos8{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  box-sizing: border-box;
+}
+.prt{
+  background:linear-gradient(to right, #ff2f8b 30%, #9035f9 70%);
+  height: 41.5px;
+  width: 40px;
+  border: none;
+}
+.lei:focus::placeholder{
+  visibility: hidden;
+}
+.lei:focus{
+  color: #495057;
+  background-color: #191919;
+  border-color:#80bdff !important;
+}
+.lei{
+  width: 200px;
+  height: 40px;
+  background:none;
+  border: 1px solid #333333;
+  padding: 20px 20px;
+  box-shadow: none;
+  outline: none;
+}
+.cont{
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.lp{
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight: 400;
+  color: #999999;
+  line-height: 24px;
+}
+.t4:hover{
+  color: #ff2f8b;
+  text-decoration: none;
+
+}
+.t4{
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight: 400;
+  color: #777777;
+  text-align: start;
+}
+.rparent{
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menuu{
+  padding: 15px 15px 15px 0px;
+  color: white;
+  text-align: start;
+}
+.leftcol{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.rightcol{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.columns{
+  width: 100%;
+  height: 73%;
+  display:flex;
+}
+.r4{
+  width: 20%;
+}
+.r3{
+  width: 20%;
+  padding-left: 10px;
+
+}
+.r2{
+  width: 14%;
+}
+.r1{
+  width:20%;
+}
+.huh{
+  width: 100%;
+  height: 10%;
+}
+.row6{
+  height: 90%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.lastpart{
+  background-color: #04091e;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+}
+.sec8{
+  margin-top: 150px;
+}
+.prettya:hover{
+  color: #ff2f8b;
+  text-decoration: none;
+}
+.prettya{
+  color: black;
+}
+.k1{
+  line-height: 24px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #777777;
+    text-align: start;
+}
+.h64{
+  font-size: 21px;
+  font-weight: 700;
+  font-family: serif;
+  text-align: start;
+}
+.chal{
+  width: 120px;
+  height: 80px;
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/quote.png.webp);
+
+}
+.rate{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.smright{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+}
+.mnjj{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: serif;
+  text-align: start;
+  color: white;
+}
+.sbsc::placeholder{
+  font-size: 13px;
+  color: white;
+  width: 120px;
+  
+}
+.btnwp{
+  height: 43px;
+  width: 130px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  position: relative;
+  left: -45px;
+}
+.pq11{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sbsc:focus{
+  outline:  none;
+
+}
+.sbsc{
+  width:500px;  
+  height: 63px;
+  border: none;
+  padding: 30px 30px;
+  outline: none;
+  background-color: #c251da;
+}
+.wp{
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.rightp{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftp{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.prettyl{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/cta-bg2.png.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 12ე0px;
+}
+.tm{
+  width: 270px;
+  height: 270px;
+  border: 1px solid rgb(231, 224, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anotherrow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+  }
+.dspan1{
+  font-size: 23px;
+  font-weight: 950;
+  font-family: serif;
+  color: white;
+}
+.dspan2{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: serif;
+  color: white;
+}
+.date{
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+.littlepa{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(to right, #ff2f8b 30%, #9035f9 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.mg{
+  overflow: hidden;
+}
+.newth:hover{
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);}
+.newth{
+  overflow: hidden;
+  transition: -ms-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  -webkit-transition: -webkit-transform .5s ease;}
+.n2{
+  justify-content: center;
+  text-align: start !important;
+  overflow: hidden;
+}
+.lmj{
+  color: #777777;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.h61{
+  color: #000000;
+  font-size: 21px;
+  font-family: serif;
+  font-weight: 800;
+}
+.ps{
+  width: 100%;
+  display:flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+.st{
+  font-size: 14px;
+  color: #777777;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+h4{
+  text-align: center;
+  font-size: 48px;
+  font-family: serif;
+  font-weight: 700;
+}
+.linp{
+  text-align: center;
+  margin-top: 150px;
+  background:linear-gradient(to right, #ff2f8b 30%, #9035f9 70%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text;
+  font-weight: 400;
+  font-size: 1rem;
+  color:#000000;
+}
+.sec4{
+    width: 100%;
+  }
+  .saver{
+    text-align: start;
+  }
+  .pink1{
+    color: #ff2f8b !important;
+  }
+  .btnblack{
+    background-color: black;
+    width: 170px;
+    height: 50px;
+    color: rgb(187, 41, 41);
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-right: 200px;
+    border: none;
+    color: white;
+  }
+  .btnblack:hover{
+   background: none; 
+   border: 1px solid black;
+   color: black;
+
+  }
+  .lor3{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .dropdown-item:hover{
+    background-color: #ff2f8b;
+    color:white;
+  }
+  h3{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 700;
+  }
+  .leftone{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 100px;
+  }
+  .sec3{
+    width:100%;
+    height: 500px;
+    background-image: url(https://preview.colorlib.com/theme/taxa/img/cta-bg.png.webp);
+    background-size: cover;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ph{
+    padding: 40px;
+  }
+  .readmore{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .hh5{
+    color: #777777;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h5{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: serif;
+  }
+  .el:hover{
+    -webkit-box-shadow: 0 0 30px #f1e2ff;
+        box-shadow: 0 0 30px #f1e2ff;
+  }
+  .el{
+    width: 26%;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+  }
+  .readmore:hover{
+    background:linear-gradient(to right, #ff2f8b 30%, #9035f9 70%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text;
+    text-decoration: none;
+  }
+  hr{
+    width: 100px;
+    background-color:#DDDDDD;
+    height: 5px;
+    margin-top: 35px;
+  }
+    .servicestitles{
+      text-align: center;
+      padding-top: 150px;
+    }
+    .titl{
+      text-align: center;
+      font-size: 48px;
+      font-weight: 700;
+    }
+    .lin{
+      font-weight: 400;
+      font-size: 14px;
+      background:linear-gradient(to right, #ff2f8b, #9035f9);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text;
+    }
+     .sec2{
+      width: 100%;
+      font-weight: 700;
+    }
+    .dropdown:hover .dropdown-menu {display: block;}
+
+    .x1{
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .dropdown-item{
+      color: black;
+      text-decoration: none;
+      display: block;
+      width: 200px;
+      height: 40px;
+      padding-top:7.5px ;
+      font-size:12px;
+      font-weight: 900;
+    }
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-menu:active{
+      background-color: rgb(255, 255, 255);
+      display: none;
+      position: absolute;
+      margin:0px 0px 0px !important;
+    }
+    .middlepr{
+        width: 100%;
+        height: 170px;
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+    .prettybottom{
+        width: 100%;
+        height:735px;
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        color: white;
+        font-size: 120px;
+        font-weight: 700;
+        font-family:"Playfair Display", serif;;
+    }
+    .prettyspan{
+        color: white;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin: auto;
+    }
+    .btn:hover{
+      color:#ff2f8b ;
+      border-color: #ff2f8b;
+    }
+    #searchi:hover{
+      color:#ff2f8b !important;
+    }
+    .nav-link:hover{
+        color: #ff2f8b !important;
+    }
+    #searchi{
+        margin-right:100px;
+        font-size: 12px;
+    }
+    .nav-item{
+        margin-left: 25px;
+    }
+    .navbar-nav{
+        margin-left: 180px;
+    }
+    .navbar-brand{
+        margin-left: 100px;
+    }
+    .btn{
+        border-radius: 0;
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+        border: 1px solid white;
+        color: white;
+        margin-right: 50px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 12px;
+        font-weight: 750;
+    }
+    .prettyone{
+        width: 100%;
+        height: 800px;
+        background-image: url(https://preview.colorlib.com/theme/taxa/img/banner/home-banner.png.webp);
+        background-position:center;
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+      margin: 0;
+    }
