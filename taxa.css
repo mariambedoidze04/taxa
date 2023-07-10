@@ -4,7 +4,113 @@
 
 
 
+.inner99{
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/quote.png.webp);
+}
+.text99{
+width: 100%;
+height: 50%;
+}
+.photo99{
+width: 100%;
+height: 50%;
+}
+.cr2{
+  background-color: #999999;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.item-text:hover .bottomdivv{
+  display: block;
+}
+.item-text:hover{
+  background:linear-gradient(to right, #ff2f8b 30%, #9035f9 70%);
+}
+.txtdn:hover{
+  text-decoration: none;
+}
+.item-p{
+  font-size: 21px;
+  font-family: serif;
+  font-weight: 700;
+}
+.item-span{
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+  font-family:sans-serif;
+}
+.bottomdivv{
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.x4{
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/places/p4.jpg.webp);
+}
+.x3{
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/places/p3.jpg.webp);
+}
+.x2{
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/places/p2.jpg.webp);
+}
+.t1{
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/places/p1.jpg.webp);
+}
+  .item{
+    width: 100% !important;
+    width: 400px;
+    height: 457.36px;
+  }
+.item-text{
+  width: 340px;
+  height: 457.36px;
+  background-size: cover;
+  display:flex ;
+  align-items: end;
+}
+.sm{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 60px;
+  margin: 20px;
+}
+.p123{
+  line-height: 24px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #777777;
+}
+.h41{
+  font-size: 21px;
+  font-weight: 700;
+  font-family: serif;
+}
+.tm:hover .hidden{
+  display: block;
 
+}
+.hidden{
+  width: 210px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 168.5px;
+  margin-right: 50px;
+  display: none;
+  transition: display .5s ease;
+
+}
 #spf{
   color: white;
 }
@@ -275,11 +381,11 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  margin-top: 12ე0px;
+  margin-top: 120px;
 }
 .tm{
-  width: 270px;
-  height: 270px;
+  width: 260px;
+  height: 260px;
   border: 1px solid rgb(231, 224, 224);
   display: flex;
   align-items: center;
