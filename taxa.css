@@ -4,7 +4,51 @@
 
 
 
+.img-c2{
+  border-radius: 50%;
+}
+.rounddivs{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.car-parent{
+  display: flex;
+  justify-content: center;
+}
+#starprtt{
+  font-size: 13px;
+}
+.stars5div{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin-bottom: 15px;
+}
+.h67{
+  font-size: 21px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 255px;
+  font-family: sans-serif;
+}
+.rur{
+  font-size: 17px;
+  color: #888888;
+  text-align: center;
+  line-height: 24px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
 .inner99{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  width: 118px;
+  height: 82px;
   background-image: url(https://preview.colorlib.com/theme/taxa/img/quote.png.webp);
 }
 .text99{
@@ -14,12 +58,18 @@ height: 50%;
 .photo99{
 width: 100%;
 height: 50%;
+display: flex;
+justify-content: center;
+
 }
 .cr2{
-  background-color: #999999;
   width: 100%;
+  height: 240px !important;
   display: flex;
   flex-direction: column;
+}
+.carousel2{
+  margin-top:130px ;
 }
 .item-text:hover .bottomdivv{
   display: block;
